@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "convertmepls"
+version = "1.0.0"
+description = "Python client for the ConvertMePls file-conversion API — convert and compress images, video and audio."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "ConvertMePls" }]
+keywords = ["convert", "compress", "image", "video", "audio", "ffmpeg", "api"]
+dependencies = []  # standard library only
+
+[project.urls]
+Homepage = "https://convertmepls.com"
+Documentation = "https://convertmepls.com/en/docs"
+Repository = "https://github.com/Convert-Me-Pls/convertmepls-sdk-py"
+Issues = "https://github.com/Convert-Me-Pls/convertmepls-sdk-py/issues"
+
+[tool.hatch.build.targets.wheel]
+packages = ["convertmepls"]
