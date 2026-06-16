@@ -1,5 +1,7 @@
 # ConvertMePls — Python SDK
 
+**Links:** [PyPI](https://pypi.org/project/convertmepls/) · [GitHub](https://github.com/Convert-Me-Pls/convertmepls-sdk-py) · [docs](https://convertmepls.com/en/docs)
+
 Convert and compress images, video and audio through the [ConvertMePls](https://convertmepls.com) API. Standard library only — no dependencies.
 
 ```bash
